@@ -27,4 +27,4 @@ yarn-error.log*
 .vscode
 /tg-session
 /texts
-_*
+_*.js
