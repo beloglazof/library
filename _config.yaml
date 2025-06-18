@@ -2,3 +2,9 @@ lsi: false
 safe: true
 source: .
 incremental: false
+theme: minima
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false

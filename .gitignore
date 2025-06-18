@@ -28,3 +28,4 @@ yarn-error.log*
 /tg-session
 /texts
 _*.js
+_site
