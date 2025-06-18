@@ -1,5 +1,4 @@
 lsi: false
 safe: true
 source: .
-markdown: GFM
 incremental: false
