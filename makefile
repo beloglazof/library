@@ -2,7 +2,7 @@ push_blog:
 	git add . && git commit -m "Update" && git push
 
 build:
-	hugo --minify
+	hugo --minify --gc
 
 clean: 
 	rm -r public
