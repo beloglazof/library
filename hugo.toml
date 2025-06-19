@@ -1,4 +1,4 @@
-baseURL = 'https://beloglazof.github.io/'
+baseURL = ''
 languageCode = 'ru-RU'
 title = 'Библиотека'
 theme = 'typo'
@@ -61,15 +61,3 @@ url = "/bg"
 [markup]
 [markup.highlight]
 style = 'algol'
-
-# Deploy settings
-
-[[deployment.matchers]]
-pattern = "^.+\\.(js|css|svg|ttf|woff2)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
-
-[[deployment.matchers]]
-pattern = "^.+\\.(png|jpg|gif|webp)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = false
