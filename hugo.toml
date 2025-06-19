@@ -1,0 +1,75 @@
+baseURL = 'https://beloglazof.github.io/'
+languageCode = 'ru-RU'
+title = 'Библиотека'
+theme = 'typo'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Бхагавад-гита, Шримад-Бхагаватам, Шри Чайтанья-чаритамрита"
+faviconPath = 'favicon/'
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'base16-eighties'
+hideHeader = false
+showFooter = false
+
+# Intro on main page, content is markdown
+# homeIntroTitle = 'Библиотека'
+homeIntroContent = """
+  Труды Его Божественной Милости А.Ч. Бхактиведанты Свами Шрилы Прабхупады, ачарьи-основателя международного общества Сознания Кришны.
+
+  [Бхагавад-гита как она есть](/bg)
+"""
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 20
+listSummaries = false
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = false
+showCurrentPage = true
+home = "~"
+
+# Social icons
+# [[params.social]]
+# name = "github"
+# url = "https://github.com/beloglazof"
+
+# Main menu pages
+[[params.menu]]
+name = "Начало"
+url = "/"
+
+[[params.menu]]
+name = "Бхагавад-гита"
+url = "/bg"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Deploy settings
+
+[[deployment.matchers]]
+pattern = "^.+\\.(js|css|svg|ttf|woff2)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg|gif|webp)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
