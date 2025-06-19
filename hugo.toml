@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://beloglazof.github.io/library'
 languageCode = 'ru-RU'
 title = 'Библиотека'
 theme = 'typo'
@@ -12,7 +12,7 @@ tag = 'tags'
 [params]
 # Meta description
 description = "Бхагавад-гита, Шримад-Бхагаватам, Шри Чайтанья-чаритамрита"
-faviconPath = 'favicon/'
+faviconPath = '/library/favicon/'
 
 # Appearance settings
 theme = 'auto'
@@ -51,11 +51,11 @@ home = "~"
 # Main menu pages
 [[params.menu]]
 name = "Начало"
-url = "/"
+url = "/libary"
 
 [[params.menu]]
 name = "Бхагавад-гита"
-url = "/bg"
+url = "/library/bg"
 
 # Syntax highlight on code blocks
 [markup]
