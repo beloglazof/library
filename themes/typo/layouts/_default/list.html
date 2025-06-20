@@ -6,6 +6,8 @@
 
     {{ if eq .Title "Bgs" }}
     <h1>Бхагавад-гита</h1>
+    {{ else if eq .Title "Sbs"}}
+    <h1>Шримад-Бхагаватам</h1>
     {{ else }}
     <h1>{{ .Title }}</h1>
     {{ end }}

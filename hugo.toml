@@ -1,13 +1,13 @@
 baseURL = 'https://beloglazof.github.io/library'
 languageCode = 'ru-RU'
-title = 'Библиотека'
+title = 'Океан рассказов о Кришне'
 theme = 'typo'
 
 # Google analytics code
-googleAnalytics = "G-xxxxxxxxx"
+# googleAnalytics = "G-xxxxxxxxx"
 
 [taxonomies]
-tag = 'tags'
+# tag = 'tags'
 
 [params]
 # Meta description
@@ -21,11 +21,12 @@ hideHeader = false
 showFooter = false
 
 # Intro on main page, content is markdown
-# homeIntroTitle = 'Библиотека'
+# homeIntroTitle = ''
 homeIntroContent = """
   Труды Его Божественной Милости А.Ч. Бхактиведанты Свами Шрилы Прабхупады, ачарьи-основателя международного общества Сознания Кришны.
 
-  [Бхагавад-гита как она есть](/library/bg/)
+- [Бхагавад-гита как она есть](/library/bg/)
+- [Шримад-Бхагаватам](/library/sb/)
 """
 
 # Collection to display on home
@@ -50,12 +51,16 @@ home = "~"
 
 # Main menu pages
 [[params.menu]]
-name = "Начало"
+name = "🏠"
 url = "/library/"
 
 [[params.menu]]
 name = "Бхагавад-гита"
 url = "/library/bg"
+
+[[params.menu]]
+name = "Шримад-Бхагаватам"
+url = "/library/sb"
 
 # Syntax highlight on code blocks
 [markup]
