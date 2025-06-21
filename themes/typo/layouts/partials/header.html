@@ -8,6 +8,7 @@
         <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
     </h1>
 
+    {{ if site.Params.menu }}
     <div class="header-menu">
         {{ $currentPage := . }}
 
@@ -24,6 +25,7 @@
         {{ end }}
         {{ end }}
     </div>
+    {{ end }}
 
     {{ end }}
 

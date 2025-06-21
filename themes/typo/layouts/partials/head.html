@@ -27,11 +27,11 @@
 {{ end }}
 
 <title>
-    {{ if .IsHome }}
-    {{ site.Title }}
-    {{ else }}
-    {{ printf "%s | %s" .Title site.Title }}
-    {{ end }}
+  {{ if .IsHome }}
+  {{ site.Title }}
+  {{ else }}
+  {{ .Title }}
+  {{ end }}
 </title>
 
 <link rel="canonical" href="{{ .Permalink }}"/>

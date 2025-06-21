@@ -4,11 +4,7 @@
 
     {{ partial "breadcrumbs.html" . }}
 
-    {{ if eq .Title "Bgs" }}
-    <h1>Бхагавад-гита</h1>
-    {{ else }}
     <h1>{{ .Title }}</h1>
-    {{ end }}
     {{ .Content }}
 
     {{ $tagsPage := eq .Title "Tags"}}

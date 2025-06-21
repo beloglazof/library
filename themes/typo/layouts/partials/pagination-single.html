@@ -1,12 +1,13 @@
-{{ if or .NextInSection .PrevInSection }}
-
+{{ if or .Next .Prev }}
+{{/*  LOGIC WAS REVERTED  */}}
+{{/*  IT PAGINATE THROW ALL PAGES ALSO  */}}
 <div class="single-pagination">
     <hr />
 
     <div class="flexnowrap">
 
         <div class="single-pagination-prev">
-            {{ with .NextInSection }}
+            {{ with .Next }}
             <div class="single-pagination-container-prev">
                 <div class="single-pagination-text">←</div>
                 <div class="single-pagination-text">
@@ -19,7 +20,7 @@
         </div>
 
         <div class="single-pagination-next">
-            {{ with .PrevInSection }}
+            {{ with .Prev }}
             <div class="single-pagination-container-next">
                 <div class="single-pagination-text">
                     <a href="{{ .RelPermalink }}">
