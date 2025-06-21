@@ -1,6 +1,6 @@
 baseURL = 'https://beloglazof.github.io/library'
 languageCode = 'ru-RU'
-title = 'Океан рассказов о Кришне'
+title = 'Океан повествований о Кришне'
 theme = 'typo'
 
 # Google analytics code
@@ -40,9 +40,9 @@ listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
 [params.breadcrumbs]
-enabled = false
+enabled = true
 showCurrentPage = true
-home = "~"
+home = "🏠"
 
 # Social icons
 # [[params.social]]
@@ -50,17 +50,17 @@ home = "~"
 # url = "https://github.com/beloglazof"
 
 # Main menu pages
-[[params.menu]]
-name = "🏠"
-url = "/library/"
+# [[params.menu]]
+# name = "🏠"
+# url = "/library/"
 
-[[params.menu]]
-name = "Бхагавад-гита"
-url = "/library/bg"
+# [[params.menu]]
+# name = "Бхагавад-гита"
+# url = "/library/bg"
 
-[[params.menu]]
-name = "Шримад-Бхагаватам"
-url = "/library/sb"
+# [[params.menu]]
+# name = "Шримад-Бхагаватам"
+# url = "/library/sb"
 
 # Syntax highlight on code blocks
 [markup]
