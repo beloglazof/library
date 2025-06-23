@@ -36,7 +36,7 @@ homeIntroContent = """
 
 # Lists parameters
 paginationSize = 20
-listSummaries = false
+listSummaries = true
 listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
