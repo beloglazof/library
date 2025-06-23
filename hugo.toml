@@ -27,6 +27,7 @@ homeIntroContent = """
 
 - [Бхагавад-гита как она есть](/library/bg/)
 - [Шримад-Бхагаватам](/library/sb/)
+- [Шри Чайтанья-чаритамрита](/library/cc/)
 """
 
 # Collection to display on home
@@ -35,7 +36,7 @@ homeIntroContent = """
 
 # Lists parameters
 paginationSize = 20
-listSummaries = false
+listSummaries = true
 listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs

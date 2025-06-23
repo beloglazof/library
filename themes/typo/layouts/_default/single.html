@@ -16,9 +16,9 @@
         {{- /* Title and Summary */}}
         
         <h1 class="single-title">{{ .Title }}</h1>
-        {{- with .Param "summary" }}
+        {{/*  {{- with .Param "summary" }}
         <p class="single-summary">{{ . | markdownify }}</p>
-        {{- end }}
+        {{- end }}  */}}
    
         {{- /* Date, Reading Time and Author */}}
         {{ if or (or (.Param "author") (.Param "authorAvatarPath")) (or .Date (.Param "readTime")) }}
