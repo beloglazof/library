@@ -16,7 +16,7 @@
 
     {{ $paginator := .Paginate (.Pages) $paginationSize }}
 
-    {{ range $index, $page := $paginator.Pages }}
+    {{ range $index, $page := .Pages }}
 
     {{ if $tagsPage }}
     {{ partial "tag-entry.html" $page}}
@@ -26,7 +26,12 @@
 
     {{ end }}
 
-    {{ partial "pagination-controls.html" $paginator}}
+    {{/* {{ partial "pagination-controls.html" $paginator}} */}}
 
+    <div class="back-to-top">
+        <a href="#top">
+            к началу страницы
+        </a>
+    </div>
 </div>
 {{ end }}

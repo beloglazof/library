@@ -267,10 +267,11 @@ footer a {
 }
 
 .line-summary {
-  font-size: small;
+  /* font-size: small; */
+  font-size: medium;
   margin-top: .2rem !important;
   /* font-style: italic; */
-  color: var(--content-secondary);
+  /* color: var(--content-secondary); */
 }
 
 .list-container {
