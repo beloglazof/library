@@ -1,0 +1,19 @@
+{
+  "short_name": "Океан",
+  "name": "Океан повествований о Кришне",
+  "description": "Труды Его Божественной Милости А.Ч. Бхактиведанты Свами Шрилы Прабхупады, ачарьи-основателя международного общества Сознания Кришны.",
+  "icons": [
+    {
+      "src": "/library/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/library/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/library",
+  "display": "standalone"
+}
