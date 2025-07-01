@@ -5,7 +5,7 @@ const PRECACHE_URLS = [
   '/manifest.json',
   '/js/theme-switch.js',
   '/favicon/android-chrome-192x192.png',
-  '/assets/combined.min.780ace2e4c5eb5073b4c8b0fb1a489e3797b614f878eb88e4fca98b6c0fac781.css'
+  '/assets/combined.min.css'
 ]
 
 self.addEventListener('install', event => {
