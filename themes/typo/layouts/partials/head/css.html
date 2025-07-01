@@ -19,7 +19,6 @@ $CSS := slice
 $combined := $CSS
 | resources.Concat "assets/combined.css"
 | minify
-| fingerprint
 }}
 
 <link rel="stylesheet" href="{{ $combined.RelPermalink }}" media="all">
