@@ -37,5 +37,16 @@
 </body>
 
 <script src="{{ "js/theme-switch.js" | relURL }}"></script>
-<script defer src="{{ "js/copy-code.js" | relURL }}"></script>
+
+{{ $swPath := "sw.js" | relURL}}
+{{ with $swPath }}
+<script src="{{ . }}"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register("{{.}}")
+    });
+  }
+</script>
+{{ end }}
 </html>
