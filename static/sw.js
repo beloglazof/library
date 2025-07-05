@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lib-cache-5bcf1d7c-d6ed-42b0-9ac8-f968d5e5c389';
+const CACHE_NAME = 'lib-cache-b2f3980f-a2cf-4688-a81c-541b7c00dc3f';
 const PRECACHE_URLS = [
   '/',
   '/404.html',

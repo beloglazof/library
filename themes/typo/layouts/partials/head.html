@@ -17,6 +17,15 @@
 {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
 
+<meta
+  name="theme-color"
+  content="#f2f0ec"
+  media="(prefers-color-scheme: light)" />
+<meta
+  name="theme-color"
+  content="#2d2d2d"
+  media="(prefers-color-scheme: dark)" />
+
 {{- if .IsHome -}}
 <meta name="description" content="{{ site.Params.Description }}"/>
 {{- else -}}
